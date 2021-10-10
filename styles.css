@@ -4,13 +4,18 @@
     padding: 0;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+
 h1, h3, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    font-family: 'Merriweather', serif;
-    font-size: 16px;
+h1 {
+    font-weight: 800;
 }
 
 h6 {
@@ -18,28 +23,23 @@ h6 {
     font-size: 13.5px;
 }
 
-body {
-    width: 100%;
-    height: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .body-container {
     width: 900px;
-    margin: auto;
+    margin: 100px auto;
 }
 
 .aaron-image {
-    border-radius: 50%;
-    height: 40px;
+    border-radius: 100%;
     width: 40px;
+    margin-right: 12px;
 }
 
+/*padding might be removed*/
 .title-container {
     width: 100%;
+    height: 15%;
     padding-bottom: 30px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .title-container > h1 {
@@ -48,24 +48,25 @@ body {
 
 .feature-container {
     width: 100%;
+    height: 35%;
     display: flex;
     padding-top: 24px;
 }
 
 .feature-image {
-    width: 785px;
-    height: 290px;
+    width: 65%;
 }
 
 .feature-text-info {
-    width: 40%;
-    margin: 50px 0px 0px 50px;
+    width: 35%;
+    margin-left: 45px;
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
 }
 
 .feature-text-info > h3 {
-    font-size: 25px;
+    font-size: 1.6rem;
     margin: 12px 0;
 }
 
@@ -74,15 +75,12 @@ body {
     margin-top: 12px;
 }
 
-.author {
-    padding-left: 10px;
-}
-
 .article-container {
     width: 100%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .article {
